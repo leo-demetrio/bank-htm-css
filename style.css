@@ -86,7 +86,28 @@ body{
         hsl(136,65%,51%)
     );
 }
-
+/* ---- WHY US ----*/
+.container{
+    background-color: hsl(220, 16%, 96%);
+}
+.why-us{
+    padding-top: 10vh;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 10vh;
+}
+.why-us > h1 {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: hsl(233, 26%, 24%);
+}
+.why-us > p {
+    color: hsl(136,8%,62%);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
 
 
 
