@@ -93,8 +93,7 @@ body{
 .why-us{
     padding-top: 10vh;
     width: 80%;
-    margin-left:auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding-bottom: 10vh;
 }
 .why-us > h1 {
@@ -105,6 +104,31 @@ body{
 }
 .why-us > p {
     color: hsl(136,8%,62%);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* ---- FEATURES ----*/
+.features-section {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 10vh;
+}
+.feature-item > img {
+    width: 65px;
+    margin-bottom: 10px;
+}
+.feature-item > h1 {
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: hsl(233, 26%, 24%);
+}
+.feature-item > p {
+    color: hsl(233,8%,62%);
     margin-bottom: 15px;
     font-weight: 700;
 }
